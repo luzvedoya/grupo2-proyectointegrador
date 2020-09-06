@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    font-family:  'Slabo 27px', serif;
+}
+
+img{
+    width: 100%;
+}
+
+li{
+    list-style-type: none;
+}
+
+/*CSS HEADER*/
+.header{
+    display: flex;
+    background-color: #b6ccfe;
+    background-attachment: fixed;
+}
+
+.logo{
+    width: 20%;
+    height: 120px;
+}
+
+.fotologo{
+    height: 120px;
+    width: 200px;
+}
+
+.menu .opciones{
+    width: 80%;
+}
+
+.opciones{
+    display: flex;
+}
+
+.opciones li a{
+    color: #03045e;
+    text-decoration: none;
+    font-size: 20px;
+    justify-content: center;
+    padding: 60px;
+    align-items: center;
+}
+
+.opciones li a:hover{ 
+    text-decoration: underline;
+}
