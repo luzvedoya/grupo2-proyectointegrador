@@ -1,11 +1,12 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
 .footer{
     display: flex;
-    background-color: rgb(2, 62, 138);
+    background-color: rgb(0, 180, 216);
 
 }
 
-.copyright{
-    display: flex;
-    text-align: center;
-
-}
