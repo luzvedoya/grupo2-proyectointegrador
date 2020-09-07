@@ -14,7 +14,7 @@ li{
 /*CSS HEADER*/
 .header{
     display: flex;
-    background-color: #b6ccfe;
+    background-color: blue;
     background-attachment: fixed;
 }
 
