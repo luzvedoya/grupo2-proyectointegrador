@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     font-family:  'Slabo 27px', serif;
+    background-color: #1d3557;
 }
 
 img{
@@ -11,40 +12,23 @@ li{
     list-style-type: none;
 }
 
-/*CSS HEADER*/
-.header{
-    display: flex;
-    background-color: blue;
-    background-attachment: fixed;
-}
 
-.logo{
-    width: 20%;
-    height: 120px;
-}
+/*CSS PAGINA*/
 
-.fotologo{
-    height: 120px;
-    width: 200px;
-}
-
-.menu .opciones{
-    width: 80%;
-}
-
-.opciones{
+.primera{
     display: flex;
 }
 
-.opciones li a{
-    color: #03045e;
-    text-decoration: none;
-    font-size: 20px;
-    justify-content: center;
-    padding: 60px;
-    align-items: center;
+.fotoportada{
+    width: 50%;
 }
 
-.opciones li a:hover{ 
+.inormacion{
+    width: 50%;
+}
+
+.titulopelicula{
+    font-size: 80px;
     text-decoration: underline;
+
 }
