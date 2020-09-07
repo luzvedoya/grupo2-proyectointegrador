@@ -1,13 +1,44 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
+img{
+    width: 100%;
 }
 
-
+li{
+    list-style-type: none;
+}
 .footer{
     display: flex;
+<<<<<<< HEAD
     background-color: rgb(23, 87, 100);
+=======
+    background-color: rgb(64, 128, 211);
+    justify-content: stretch;
+    width: 180;
+    height: 100px;
+    
+}
+.logo{
+    width: 10%;
+    height: 60px;
+}
+.palabras .lista{
+    display: flex;
+    text-align: center;
+>>>>>>> Martina
     justify-content: space-between;
 
 }
 
+.lista li a{
+    color: #03045e;
+    padding: 20px;
+    text-decoration: none;
+
+}
+.lista li a:hover{ 
+    text-decoration: underline;
+}
+.copyright{
+    background-color: rgb(64, 128, 211);
+    text-align: center;
+
+}
