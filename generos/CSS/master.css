@@ -8,8 +8,11 @@ li{
 .footer{
     display: flex;
 <<<<<<< HEAD
+<<<<<<< HEAD
     background-color: rgb(23, 87, 100);
 =======
+=======
+>>>>>>> Martina
     background-color: rgb(64, 128, 211);
     justify-content: stretch;
     width: 180;
@@ -23,6 +26,9 @@ li{
 .palabras .lista{
     display: flex;
     text-align: center;
+<<<<<<< HEAD
+>>>>>>> Martina
+=======
 >>>>>>> Martina
     justify-content: space-between;
 
@@ -38,7 +44,11 @@ li{
     text-decoration: underline;
 }
 .copyright{
+<<<<<<< HEAD
     background-color: rgb(64, 128, 211);
+=======
+    background-color: rgb(211, 64, 64);
+>>>>>>> Martina
     text-align: center;
 
 }
