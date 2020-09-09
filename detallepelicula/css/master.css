@@ -20,7 +20,7 @@ img{
 .titulopeli {
     text-align: center;
     font-size: 60px;
-    color: #CAF0F8;
+    color: #90E0EF;
 }
 
 .informacion{
@@ -30,7 +30,8 @@ img{
 
 .datos{
     display: flex;
-    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .datos h3 {
@@ -40,4 +41,8 @@ img{
 
 h2{
     text-decoration: underline;
+}
+
+.critica{
+    color: #CAF0F8;
 }
