@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    font-family:  'Slabo 27px', serif;
+    background-color: #1D3557;
+    
+}
+
+img{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+}
+
+.fotoportada{
+    width: 40%;
+}
+
+.titulopeli {
+    text-align: center;
+    font-size: 60px;
+    color: #CAF0F8;
+}
+
+.informacion{
+    width: 60%;
+    color: #CAF0F8;
+}
+
+.datos{
+    display: flex;
+    padding: 10px;
+}
+
+.datos h3 {
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+h2{
+    text-decoration: underline;
+}
