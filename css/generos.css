@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    font-family:  'Slabo 27px', serif;
+    background-color: #1d3557;
+}
+
+img{
+    width: 100%;
+}
+
+li{
+    list-style-type: none;
+}
+
+.generos{
+    background-color: rgb(29, 53, 87);
+}
+
+.titulo{
+    display: grid;
+    color: white;
+    text-align: center; 
+    padding: 2px;
+}
