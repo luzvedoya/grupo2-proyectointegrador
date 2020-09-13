@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     font-family:  'Slabo 27px', serif;
-    background-color: #1d3557;
+    /*background-color: #1d3557;*/
 }
 
 img{
@@ -10,31 +10,34 @@ img{
 
 li{
     list-style-type: none;
+    
 }
 
 /*CSS HEADER*/
 .header{
     display: flex;
-    background-color: #1D3557; /*es el mismo que el del fondo, asique hay que cambiarlo*/
+    background-color: #657680; 
     background-attachment: fixed;
 }
 
 .logo{
-    width: 20%;
+    width: 25%;
     height: 120px;
 }
+
+
 
 .fotologo{
     height: 120px;
-    width: 200px;
 }
 
 .menu .opciones{
-    width: 80%;
+    width: 50%;
 }
 
 .opciones{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .opciones li a{
@@ -42,10 +45,14 @@ li{
     text-decoration: none;
     font-size: 20px;
     justify-content: center;
-    padding: 60px;
+    /*padding: 60px;*/
     align-items: center;
 }
 
 .opciones li a:hover{ 
     text-decoration: underline;
+}
+
+.restopagina{
+    background-color: #1D3557;
 }
