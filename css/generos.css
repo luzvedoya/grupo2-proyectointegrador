@@ -1,18 +1,20 @@
 *{
     box-sizing: border-box;
     font-family:  'Slabo 27px', serif;
-
 }
 
-img video{
+img{
     width: 100%;
 }
 
 li{
     list-style-type: none;
 }
-.portada{
-    background-image: url(/img/room-2559790_960_720.jpg);
+
+.imagen{
+    background-image: url("/img/generos.jpg");
+    background-size: cover;
+    
 }
 .titulo {
     display: grid;
