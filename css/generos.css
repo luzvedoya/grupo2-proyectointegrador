@@ -1,24 +1,24 @@
 *{
     box-sizing: border-box;
     font-family:  'Slabo 27px', serif;
-    background-color: #1d3557;
+
 }
 
-img{
+img video{
     width: 100%;
 }
 
 li{
     list-style-type: none;
 }
-
-.generos{
-    background-color: rgb(29, 53, 87);
+.portada{
+    background-image: url(/img/room-2559790_960_720.jpg);
 }
-
-.titulo{
+.titulo {
     display: grid;
     color: white;
     text-align: center; 
     padding: 2px;
+    align-items: center;
+    
 }
