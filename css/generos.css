@@ -9,18 +9,140 @@ img{
 
 li{
     list-style-type: none;
+    padding: 50px;
 }
 
-.imagen{
-    background-image: url("/img/generos.jpg");
-    background-size: cover;
+.portada{
+    width: 540px;
+    
     
 }
 .titulo {
     display: grid;
-    color: white;
+    color: red;
     text-align: center; 
     padding: 2px;
     align-items: center;
+    font-size: 70px;
     
+}
+
+.generos{
+    background-color: rgb(29, 53, 87);
+    width: 540px;
+    padding: 0;
+}
+
+.palabra{
+    display: grid;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
+
+.lista{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 5px;
+}
+
+.comedia{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.comediaimg{
+    width: 100px;
+    height: 100px;
+}
+
+.terror{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.terrorimg{
+    width: 100px;
+    height: 100px;
+}
+
+.amor{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.amorimg{
+    width: 110px;
+    height: 110px;
+}
+
+.thrillers{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.thrillersimg{
+    width: 110px;
+    height: 110px;
+}
+
+.infantiles{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.infantilesimg{
+    width: 110px;
+    height: 110px;
+}
+
+.accion{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.accionimg{
+    width: 110px;
+    height: 110px;
+}
+
+.drama{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dramaimg{
+    width: 110px;
+    height: 110px;
+}
+
+.documentales{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.documentalesimg{
+    width: 110px;
+    height: 110px;
+}
+
+.suspenso{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.suspensoimg{
+    width: 110px;
+    height: 110px;
+}
+
+@media (min-width: 1024px){
+    
+    .lista{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 5px;
+    }
+
 }
