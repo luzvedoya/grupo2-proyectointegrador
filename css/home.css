@@ -1,1 +1,58 @@
+*{
+    box-sizing: border-box;
+    font-family:  'Slabo 27px', serif;
+    /*background-color: #1d3557;*/
+}
 
+img{
+    width: 100%;
+}
+
+li{
+    list-style-type: none;
+    
+}
+
+/*CSS HEADER*/
+.header{
+    display: flex;
+    background-color: #657680; 
+    background-attachment: fixed;
+}
+
+.logo{
+    width: 25%;
+    height: 120px;
+}
+
+
+
+.fotologo{
+    height: 120px;
+}
+
+.menu .opciones{
+    width: 50%;
+}
+
+.opciones{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.opciones li a{
+    color: #caf0f8;
+    text-decoration: none;
+    font-size: 20px;
+    justify-content: center;
+    /*padding: 60px;*/
+    align-items: center;
+}
+
+.opciones li a:hover{ 
+    text-decoration: underline;
+}
+
+.restopagina{
+    background-color: #1D3557;
+}
