@@ -16,7 +16,7 @@ li{
 .footer{
     display: grid;
     background-color: rgb(33, 37, 41);
-    width: 400px;
+    width: 100%;
 }
 
 .logo{
@@ -30,11 +30,16 @@ li{
 
 }
 
-.fotologo{
+.fotuli{
     display: grid;
     align-items: center;
     text-align: center;
    
+}
+
+.opciones li{
+    padding: 10px;
+    margin: 0%;
 }
 
 .opciones li a{
@@ -43,7 +48,7 @@ li{
     text-decoration: none;
     font-size: 10px;
     justify-content: center;
-    padding: 10px;
+    margin: 0;
 
 }
 
@@ -74,14 +79,13 @@ h2 a{
     justify-content: center;
     font-weight: 0;
     font-size: 8px;
-    width: 400px;
+    width: 100%;
     margin-top: 0%;
     margin-bottom: 0%;
 }
 
-/*Media Queries*/
-
 @media (min-width: 1024px){
+    
     .footer{
         display: flex;
         background-color: rgb(33, 37, 41);
@@ -89,6 +93,11 @@ h2 a{
         width: 100%;
         align-items: center;
         
+    }
+    .fotuli{
+        margin-left: 30px;
+        height: 70px;
+        width: 120px;
     }
 
     .logo{
@@ -134,3 +143,4 @@ h2 a{
         margin-bottom: 0%;
     }
 }    
+   

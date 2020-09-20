@@ -16,43 +16,102 @@ li{
 /*CSS HEADER*/
 .header{
     display: flex;
-    background-color: #657680; 
+    background-color: rgb(33, 37, 41); 
     background-attachment: fixed;
 }
 
-.logo{
-    width: 25%;
-    height: 120px;
+.hlogo{
+    width: 75px;
+    margin: 0%;
+
 }
 
+.hfotologo{
+    height: 50px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: 12px;
 
-
-.fotologo{
-    height: 120px;
 }
 
-.menu .opciones{
+.hmenu .hopciones{
     width: 50%;
+    
 }
 
-.opciones{
+.hopciones{
     display: flex;
-    flex-wrap: wrap;
+
 }
 
-.opciones li a{
-    color: #caf0f8;
+.hopciones2{
+    display: flex;
+    
+}
+
+.hopciones2 li a{
+    color: white;
     text-decoration: none;
     font-size: 20px;
     justify-content: center;
-    /*padding: 60px;*/
     align-items: center;
+    padding: 10px;
+    margin-left: 20px;
+
 }
 
-.opciones li a:hover{ 
+.hopciones li a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.hopciones li a:hover{ 
     text-decoration: underline;
 }
 
-.restopagina{
-    background-color: #1D3557;
+.hopciones2 li a:hover{ 
+    text-decoration: underline;
+}
+
+@media (min-width: 1024px){
+    
+    .hlogo{
+        width: 120px;
+
+    }
+    
+    .hfotologo{
+        height: 70px;
+        margin-top: 10px;
+        margin-left: 12px;
+    
+    }
+    
+    .hmenu{
+        display: flex;
+        align-items: center;
+    
+
+    }
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hopciones li a{
+        padding: 50px;
+    }
+
+    .hopciones2 li a{
+        padding: 50px;
+    }
+
+
 }
