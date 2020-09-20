@@ -9,6 +9,8 @@ img{
     width: 100%;
 }
 
+
+
 .container{
     display: flex;
 }
@@ -139,6 +141,8 @@ h2{
 }
 
 @media (min-width: 1024px){
+   
+
     .fotoportada{
         display: none;
     }
