@@ -59,10 +59,18 @@ li{
     background-attachment: fixed;
     width: 100%;
 }
-.products{
-    display: grid;
-    
+.section{
+    color: white;
 }
+.product-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    color: white;
+}
+
 
 /*CSS FOOTER*/
 .footer{
