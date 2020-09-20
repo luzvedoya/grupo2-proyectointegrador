@@ -1,23 +1,19 @@
 *{
     box-sizing: border-box;
     font-family:  'Slabo 27px', serif;
-    background-color: #1D3557;
+    /*background-color: #1D3557;*/
     padding: 0;
+    margin: 0;
 }
 
 img{
     width: 100%;
 }
 
-
-
-.container{
-    display: flex;
-}
-
 .primeraparte{
     display: grid;
     grid-template-rows: 105px 35px 40px;
+    background-color: rgb(1, 22, 39);
 }
 
 .buttons{
@@ -38,7 +34,7 @@ button{
     /*align-items: center;*/
 }
 
-a{
+.ver{
     border: solid;
     color: white;
     text-align: center;
@@ -51,11 +47,12 @@ a{
     /*align-items: center;*/
 }
 
+
 .titulopeli {
     text-align: center;
     /*align-items: center;*/
     font-size: 60px;
-    color: #90E0EF;
+    color: white;
 }
 
 .primeraparte .titulopeli .titulo h1{
@@ -66,7 +63,7 @@ a{
 .abajotitulo{
     display: grid;
     grid-template-columns: 1fr 2fr 3fr;
-    color: #CAF0F8;
+    color: white;
     margin: 0;
 }
 
@@ -78,9 +75,14 @@ a{
     display: none;
 }
 
+.container{
+    display: flex;
+    background-color: rgb(1, 22, 39);
+}
+
 .informacion{
     /*width: 60%;*/
-    color: #CAF0F8;
+    color: white;
     display: grid;
     grid-template-rows: 310px 50px 100px 50px;
 }
