@@ -178,7 +178,7 @@ h2{
     }
 
     .informacion{
-        grid-template-rows: 40px 40px 40px 130px 40px 40px;
+        grid-template-rows: 40px 40px 40px 160px 40px 40px;
     }
 
     .tituloresumen{
@@ -193,12 +193,12 @@ h2{
     
     .datos3 h3{
         font-weight: lighter;
-        margin-top: 1.5%;
+        margin-top: 0%;
         margin-left: 4px;
     }
 
     .resumen h3{
-        margin-top: 1.5%;
+        margin-top: 0%;
         margin-left: 4px;
     }
 }
