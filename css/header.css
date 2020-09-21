@@ -17,7 +17,7 @@ li{
 .header{
     display: flex;
     background-color: rgb(33, 37, 41); 
-    background-attachment: fixed;
+    
 }
 
 .hlogo{
