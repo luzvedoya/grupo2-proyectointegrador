@@ -1,0 +1,204 @@
+*{
+    box-sizing: border-box;
+    font-family:  'Slabo 27px', serif;
+    /*background-color: #1D3557;*/
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    width: 100%;
+}
+
+.primeraparte{
+    display: grid;
+    grid-template-rows: 105px 35px 40px;
+    background-color: rgb(1, 22, 39);
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center; /*no me lo toma*/
+}
+
+button{
+    border: solid;
+    color: white;
+    text-align: center;
+    /*display: inline-block;*/
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 80%;
+    height: 30px;
+    /*align-items: center;*/
+}
+
+.ver{
+    border: solid;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 80%;
+    height: 30px;
+    /*align-items: center;*/
+}
+
+
+.titulopeli {
+    text-align: center;
+    /*align-items: center;*/
+    font-size: 55px;
+    color: white;
+}
+
+.primeraparte .titulopeli .titulo h1{
+    align-items: center;
+    margin-top: 10px;
+}
+
+.abajotitulo{
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    color: white;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.abajotitulo article h3{
+    text-align: center; /*NO ME LO TOMA*/
+}
+
+.fotodesktop{
+    display: none;
+}
+
+.container{
+    display: flex;
+    background-color: rgb(1, 22, 39);
+}
+
+.informacion{
+    /*width: 60%;*/
+    color: white;
+    display: grid;
+    grid-template-rows: 380px 50px 100px 50px;
+}
+
+.datos{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.datos3{
+    display: none;
+}
+
+.resumen{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.resumen h3{
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.tituloresumen{
+    display: none;
+}
+
+.datos h3 {
+    padding-left: 10px;
+    /**padding-top: 5px;**/
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.datos2 {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.datos2 h3{
+    padding-left: 10px;
+    /**padding-top: 5px;**/
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+h2{
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.critica{
+    color: #CAF0F8;
+}
+
+@media (min-width: 1024px){
+   
+
+    .fotoportada{
+        display: none;
+    }
+
+    .primeraparte{
+        grid-template-rows: 160px 35px 10px;
+    }
+    
+    .abajotitulo{
+        display: none;
+    }
+
+    .titulopeli{
+        font-size: 70px;
+        margin-top: 0;
+    }
+
+    .primeraparte .titulopeli .titulo h1{
+        margin-top: 20px;
+        font-size: 80px;
+    }
+
+    .fotodesktop{
+        display: block;
+    }
+
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+
+    .informacion{
+        grid-template-rows: 40px 40px 40px 130px 40px 40px;
+    }
+
+    .tituloresumen{
+        display: block;
+    }
+
+    .datos3{
+        display: flex;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .datos3 h3{
+        font-weight: lighter;
+        margin-top: 1.5%;
+        margin-left: 4px;
+    }
+
+    .resumen h3{
+        margin-top: 1.5%;
+        margin-left: 4px;
+    }
+}
