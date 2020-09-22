@@ -1,7 +1,6 @@
 *{
     box-sizing: border-box;
     font-family:  'Slabo 27px', serif;
-    /*background-color: #1d3557;*/
 }
 
 img{
@@ -10,48 +9,78 @@ img{
 
 li{
     list-style-type: none;
+    padding: 40px;
     
 }
 
 /*CSS HEADER*/
 .header{
     display: flex;
-    background-color: #657680; 
-    background-attachment: fixed;
+    background-color: rgb(33, 37, 41); 
+    
 }
 
-.logo{
-    width: 25%;
-    height: 120px;
-}
-.fotologo{
-    height: 120px;
+.hlogo{
+    width: 75px;
+    margin: 0%;
+
 }
 
-.menu .opciones{
+.hfotologo{
+    height: 50px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: 12px;
+
+}
+
+.hmenu .hopciones{
     width: 50%;
+    
 }
 
-.opciones{
+.hopciones{
     display: flex;
-    flex-wrap: wrap;
+
 }
 
-.opciones li a{
-    color: #caf0f8;
+.hopciones2{
+    display: flex;
+    
+}
+
+.hopciones2 li a{
+    color: white;
     text-decoration: none;
     font-size: 20px;
     justify-content: center;
-    /*padding: 60px;*/
     align-items: center;
+    padding: 10px;
+    margin-left: 20px;
+
 }
 
-.opciones li a:hover{ 
+.hopciones li a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.hopciones li a:hover{ 
+    text-decoration: underline;
+}
+
+.hopciones2 li a:hover{ 
     text-decoration: underline;
 }
 /*CSS RESTOPAGINA*/
 .restopagina{
-    background-color: #1D3557;
+    background-color: white;
 }
 .fotocover{
     background-repeat: no-repeat;
@@ -61,6 +90,9 @@ li{
 }
 .section{
     color: white;
+}
+#ofertas{
+    background-color:  rgb(1, 22, 39);
 }
 .product-wrapper{
     display: grid;
@@ -74,19 +106,34 @@ li{
 
 /*CSS FOOTER*/
 .footer{
-    display: flex;
-    background-color: rgb(29, 53, 87);
-    justify-content: space-between;
-    width: 400px;
-}
-.logo{
-    height: 35px;
-    width: 75px;
+    display: grid;
+    background-color: rgb(33, 37, 41);
+    width: 100%;
 }
 
+.logo{
+    display: grid;
+    width: 35%;
+    height: 30%;
+    text-align: center;
+    align-items: center;
+    margin-left: 33%;
+   
+
+}
+
+.fotuli{
+    display: grid;
+    align-items: center;
+    text-align: center;
+   
+}
 .opciones{
-    display: flex;
-    
+    margin-right: 45px;
+}
+.opciones li{
+    padding: 10px;
+    margin: 0%;
 }
 
 .opciones li a{
@@ -95,18 +142,24 @@ li{
     text-decoration: none;
     font-size: 10px;
     justify-content: center;
-    padding: 10px;
-    align-items: center;
+    
+
 }
 
 .opciones li a:hover{ 
     text-decoration: underline;
 }
 
+.redes{
+    display: grid;
+    align-items: center;
+    text-align: center;
+
+}
 h2 a{
     color:white;
     padding: 10px;
-    text-align: right;
+    text-align: center;
     font-size: 15px;
 
 }
@@ -115,31 +168,80 @@ h2 a{
 .copyright{
     display: grid;
     color: white;
-    background-color: rgb(29, 53, 87);
+    background-color: rgb(33, 37, 41);
     text-align: center;
     justify-content: center;
     font-weight: 0;
     font-size: 8px;
-    width: 400px;
+    width: 100%;
     margin-top: 0%;
     margin-bottom: 0%;
 }
 
+
 /*Media Queries*/
 
 @media (min-width: 1024px){
+    /*media header*/
+    .hlogo{
+        width: 120px;
+
+    }
+    
+    .hfotologo{
+        height: 70px;
+        margin-top: 10px;
+        margin-left: 12px;
+    
+    }
+    
+    .hmenu{
+        display: flex;
+        align-items: center;
+    
+
+    }
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hopciones li a{
+        padding: 50px;
+    }
+
+    .hopciones2 li a{
+        padding: 50px;
+    }
+    /*media restopagina*/
+    .product-wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+
+
+    /*media footer*/
     .footer{
         display: flex;
-        background-color: rgb(29, 53, 87);
+        background-color: rgb(33, 37, 41);
         justify-content: space-between;
         width: 100%;
+        align-items: center;
+    }
+    .fotuli{
+        margin-left: 30px;
+        height: 70px;
+        width: 120px;
     }
 
     .logo{
         height: 50px;
         width: 75px;
+        margin: 0%;
+
     }
-    
     .opciones{
         display: flex;
         
@@ -152,9 +254,10 @@ h2 a{
         font-size: 20px;
         margin-right: 30px;
         margin-left: 30px;
+        align-items: center;
+        text-align: center;
         
     }
-
     h2 a{
         color:white;
         font-size: 30px;
@@ -165,7 +268,7 @@ h2 a{
     .copyright{
         display: grid;
         color: white;
-        background-color: rgb(29, 53, 87);
+        background-color: rgb(33, 37, 41);
         text-align: center;
         justify-content: center;
         font-weight: 0;
@@ -174,8 +277,5 @@ h2 a{
         margin-top: 0%;
         margin-bottom: 0%;
     }
-    .products{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
+
 }    
