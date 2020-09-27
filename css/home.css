@@ -9,7 +9,7 @@ img{
 
 li{
     list-style-type: none;
-    padding: 40px;
+    padding: 0px;
     
 }
 
@@ -80,19 +80,39 @@ li{
 }
 /*CSS RESTOPAGINA*/
 .restopagina{
-    background-color: white;
+    background-color: rgb(1, 22, 39);
 }
 .fotocover{
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    width: 100%;*/
+    display: grid;
     width: 100%;
+    height: 300px;
+    background-image: url("../img/generos.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
 }
+.elitslogan{
+    position: absolute;
+    top: 80px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 5px ;
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+}
+
 .section{
     color: white;
 }
 #ofertas{
-    background-color:  rgb(1, 22, 39);
+    background-color:  rgb(1, 26, 46);
+    font-size: 20px;
+
 }
 .product-wrapper{
     display: grid;
@@ -101,6 +121,9 @@ li{
     margin-bottom: 20px;
     justify-content: center;
     color: white;
+}
+article img:hover{
+    opacity: 0.6;
 }
 
 
@@ -205,6 +228,9 @@ h2 a{
     .header{
         display: flex;
         justify-content: space-between;
+        margin-bottom: 1px;
+        
+        
     }
 
     .hopciones li a{
@@ -215,6 +241,26 @@ h2 a{
         padding: 50px;
     }
     /*media restopagina*/
+    .fotocover{
+        display: grid;
+        width: 100%;
+        height: 600px;
+        background-repeat: unset; 
+        position: relative;  
+    }
+    .elitslogan{
+        position: absolute;
+        top: 250px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.4);
+        padding: 20px ;
+        text-align: center;
+        width: 100%;
+        font-size: 3rem;
+    }
+    #ofertas{
+        font-size: 25px;
+    }
     .product-wrapper{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
