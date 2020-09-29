@@ -17,22 +17,21 @@ li{
 .header{
     display: flex;
     background-color: rgb(33, 37, 41); 
-    justify-content: space-between;
     
 }
 
 .hlogo{
-    width: 75px;
+    width: 112px;
     margin: 0%;
 
 }
 
 .hfotologo{
-    height: 50px;
+    height: 75px;
     display: grid;
     align-items: center;
     justify-content: center;
-    margin-top: 23px;
+    margin-top: 15px;
     margin-left: 12px;
 
 }
@@ -44,10 +43,12 @@ li{
 
 .hopciones{
     display: flex;
+    margin-left: 30px;
 }
 
 .hopciones2{
     display: flex;
+    margin-left: 30px;
 }
 
 .hopciones2 li a{
@@ -89,7 +90,6 @@ li{
 .titulo {
     display: grid;
     background-color: rgb(1, 22, 39);
-    width: 100%;
     color:white;
     text-align: center; 
     align-items: center;
@@ -102,10 +102,8 @@ li{
 
 .imagen{
     display: grid;
-    width: 100%;
     height: 300px;
     background-image: url("../img/generos.jpg");
-    background-repeat: no-repeat;
     background-attachment: fixed;
     
 }
@@ -113,7 +111,6 @@ li{
 .generos{
     display: grid;
     background-color: rgb(233, 236, 240);
-    width: 100%;
 }
 
 .palabra{
@@ -131,7 +128,6 @@ li{
 
 .todos{
     display: flex;
-    width: 100%;
     justify-content: space-evenly;
     background-color: rgb(1, 22, 39);
     border: 2px solid rgb(233, 236, 240);
