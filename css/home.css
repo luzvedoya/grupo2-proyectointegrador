@@ -21,17 +21,17 @@ li{
 }
 
 .hlogo{
-    width: 75px;
+    width: 112px;
     margin: 0%;
 
 }
 
 .hfotologo{
-    height: 50px;
+    height: 75px;
     display: grid;
     align-items: center;
     justify-content: center;
-    margin-top: 25px;
+    margin-top: 15px;
     margin-left: 12px;
 
 }
@@ -43,18 +43,18 @@ li{
 
 .hopciones{
     display: flex;
-
+    margin-left: 30px;
 }
 
 .hopciones2{
     display: flex;
-    
+    margin-left: 30px;
 }
 
 .hopciones2 li a{
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     justify-content: center;
     align-items: center;
     padding: 10px;
@@ -65,7 +65,7 @@ li{
 .hopciones li a{
     color:white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     justify-content: center;
     align-items: center;
     padding: 10px;
@@ -82,6 +82,7 @@ li{
 .restopagina{
     background-color: rgb(1, 22, 39);
 }
+
 .fotocover{
     /*background-repeat: no-repeat;
     background-size: cover;
@@ -110,9 +111,8 @@ li{
     color: white;
 }
 #ofertas{
-    background-color:  rgb(1, 26, 46);
     font-size: 20px;
-
+    margin-left: 10px;
 }
 .product-wrapper{
     display: grid;
@@ -235,10 +235,12 @@ h2 a{
 
     .hopciones li a{
         padding: 50px;
+        font-size: 20px;
     }
 
     .hopciones2 li a{
         padding: 50px;
+        font-size: 20px;
     }
     /*media restopagina*/
     .fotocover{

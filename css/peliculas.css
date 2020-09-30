@@ -1,8 +1,6 @@
 *{
     box-sizing: border-box;
     font-family:  'Slabo 27px', serif;
-    padding: 0;
-    margin: 0;
 }
 
 img{
@@ -21,17 +19,17 @@ li{
 }
 
 .hlogo{
-    width: 75px;
+    width: 112px;
     margin: 0%;
 
 }
 
 .hfotologo{
-    height: 50px;
+    height: 75px;
     display: grid;
     align-items: center;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-left: 12px;
 
 }
@@ -43,20 +41,18 @@ li{
 
 .hopciones{
     display: flex;
-    margin-left: 50px;
-    margin-top: 10px;
+    margin-left: 30px;
 }
 
 .hopciones2{
     display: flex;
-    margin-left: 55px;
-    margin-bottom: 10px;
+    margin-left: 30px;
 }
 
 .hopciones2 li a{
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     justify-content: center;
     align-items: center;
     padding: 10px;
@@ -68,7 +64,7 @@ li{
 .hopciones li a{
     color:white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     justify-content: center;
     align-items: center;
     padding: 10px;
@@ -218,6 +214,7 @@ h2{
     display: grid;
     background-color: rgb(33, 37, 41);
     width: 100%;
+    border-top: 4px solid white;
 }
 
 .logo{
@@ -312,6 +309,7 @@ h2 a{
     .header{
          display: flex;
         justify-content: space-between;
+        border-bottom: 1px solid white ;
     }
 
     .hopciones{
@@ -324,10 +322,12 @@ h2 a{
 
     .hopciones li a{
         padding: 50px;
+        font-size: 20px;
     }
 
 .hopciones2 li a{
     padding: 50px;
+    font-size: 20px;
 }
 
 

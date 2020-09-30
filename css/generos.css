@@ -123,7 +123,7 @@ li{
 .lista{
     display: grid;
     padding: 0%;
-    
+    margin-top: 0;
 }
 
 .todos{
@@ -254,10 +254,12 @@ h2 a{
 
     .hopciones li a{
         padding: 50px;
+        font-size: 20px;
     }
 
     .hopciones2 li a{
         padding: 50px;
+        font-size: 20px;
     }
 
     /*Generos*/
@@ -271,16 +273,17 @@ h2 a{
     .imagen{
         display: grid;
         width: 100%;
-        height: 600px;
+        height: 350px;
         background-repeat: unset;
-        
     }
     .lista{
         display: grid;
         padding: 5px;
         grid-template-columns: 1fr 1fr 1fr;
+        
     
     }
+
     .generos{
         display: grid;
         background-color: rgb(233, 236, 240);
