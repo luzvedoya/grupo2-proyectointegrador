@@ -216,6 +216,7 @@ h2 a{
 /*Media Queries*/
 
 @media (min-width: 1024px){
+
     /*media header*/
     .hlogo{
         width: 120px;
@@ -237,7 +238,18 @@ h2 a{
     .header{
         display: flex;
         justify-content: space-between;
-        margin-bottom: 1px;
+        border-bottom: 1px solid white ;
+    }
+    .hopciones{
+        margin-left: 0;
+    }
+    .hopciones2{
+        margin-left: 15px;
+    }
+
+    .hopciones li a{
+        padding: 50px;
+        font-size: 20px;
     }
 
     .hopciones li a{
