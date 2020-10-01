@@ -89,7 +89,7 @@ li{
 .buttons{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: center; /*no me lo toma*/
+    align-items: center; 
 }
 
 .ver{
@@ -104,7 +104,7 @@ li{
     margin: auto;
 }
 
-.buttons a:hover{ /*no me lo toma*/
+.buttons a:hover{ 
     background-color: rgba(255, 255, 255, 0.8);
     text-decoration: underline;
     color: black;
@@ -381,12 +381,12 @@ h2 a{
     
     .datos3 h3{
         font-weight: lighter;
-        margin-top: 10px;
+        margin-top: 13px;
         margin-left: 4px;
     }
 
     .resumen h3{
-        margin-top: 10px;
+        margin-top: 13px;
         margin-left: 4px;
 
     }
