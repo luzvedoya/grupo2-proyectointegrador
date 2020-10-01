@@ -125,15 +125,16 @@ article img:hover{
     opacity: 0.6;
 }
 #titleproduct{
-    justify-content: center;
-    align-items: center;
     color: white;
     text-decoration: none;
 }
 article.movie{
     justify-content: center;
     align-items: center;
-    font-size: 16px;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
 }
 
 
@@ -272,6 +273,9 @@ h2 a{
     .product-wrapper{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    article.movie{
+        font-size: 16px;
     }
 
 
