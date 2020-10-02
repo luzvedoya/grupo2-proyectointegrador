@@ -89,7 +89,7 @@ li{
 .buttons{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: center; /*no me lo toma*/
+    align-items: center; 
 }
 
 .ver{
@@ -104,7 +104,7 @@ li{
     margin: auto;
 }
 
-.buttons a:hover{ /*no me lo toma*/
+.buttons a:hover{ 
     background-color: rgba(255, 255, 255, 0.8);
     text-decoration: underline;
     color: black;
@@ -129,7 +129,7 @@ li{
 }
 
 .abajotitulo article h3{
-    text-align: center; /*NO ME LO TOMA*/
+    text-align: center; 
 }
 
 .fotodesktop{
@@ -325,10 +325,10 @@ h2 a{
         font-size: 20px;
     }
 
-.hopciones2 li a{
-    padding: 50px;
-    font-size: 20px;
-}
+    .hopciones2 li a{
+        padding: 50px;
+        font-size: 20px;
+    }
 
 
     /*DETAIL*/

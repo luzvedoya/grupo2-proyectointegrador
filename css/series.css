@@ -130,7 +130,7 @@ li{
 }
 
 .abajotitulo article h3{
-    text-align: center; /*NO ME LO TOMA*/
+    text-align: center; 
 }
 
 .fotodesktop{
@@ -179,7 +179,6 @@ li{
 
 .datos2 h3{
     padding-left: 10px;
-    /**padding-top: 5px;**/
     font-weight: lighter;
     font-size: 16px;
 }
@@ -292,45 +291,43 @@ h2 a{
    .hlogo{
     width: 120px;
 
-}
+    }
 
-.hfotologo{
-    height: 70px;
-    margin-top: 10px;
-    margin-left: 12px;
+    .hfotologo{
+         height: 70px;
+        margin-top: 10px;
+        margin-left: 12px;
 
-}
+    }
 
-.hmenu{
-    display: flex;
-    align-items: center;
+    .hmenu{
+        display: flex;
+        align-items: center;
+    }
 
+    .header{
+         display: flex;
+         justify-content: space-between;
+        border-bottom: 1px solid white ;
+    }
 
-}
+    .hopciones{
+        margin-left: 0;
+    }
 
-.header{
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid white ;
-}
+    .hopciones2{
+         margin-left: 15px;
+    }
 
-.hopciones{
-    margin-left: 0;
-}
+    .hopciones li a{
+        padding: 50px;
+        font-size: 20px;
+    }
 
-.hopciones2{
-    margin-left: 15px;
-}
-
-.hopciones li a{
-    padding: 50px;
-    font-size: 20px;
-}
-
-.hopciones2 li a{
-    padding: 50px;
-    font-size: 20px;
-}
+    .hopciones2 li a{
+        padding: 50px;
+        font-size: 20px;
+    }
 
 
     /*DETAIL*/
